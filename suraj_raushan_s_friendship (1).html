@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World's Greatest Bond: Suraj Pandey & Raushan Yadav</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a; /* Deep slate background */
+            color: #f8fafc;
+        }
+        h1, h2, h3, .serif-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .golden-text {
+            background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .golden-border {
+            border-image: linear-gradient(to right, #bf953f, #fcf6ba, #b38728) 1;
+        }
+        .glow-effect {
+            box-shadow: 0 0 20px rgba(191, 149, 63, 0.3);
+        }
+        .bg-glass {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Timeline specific styles */
+        .timeline-line {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent, #bf953f, transparent);
+        }
+        @media (max-width: 768px) {
+            .timeline-line {
+                left: 20px;
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden selection:bg-yellow-600 selection:text-white">
+
+    <header class="fixed w-full top-0 z-50 bg-glass transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl md:text-2xl font-bold serif-font tracking-wider golden-text">SurajPandeyRaushanYadav</a>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8 text-sm uppercase tracking-widest text-gray-300">
+                    <li><a href="#home" class="hover:text-yellow-400 transition-colors duration-300">Home</a></li>
+                    <li><a href="#journey" class="hover:text-yellow-400 transition-colors duration-300">The Journey</a></li>
+                    <li><a href="#milestones" class="hover:text-yellow-400 transition-colors duration-300">Timeline</a></li>
+                    <li><a href="#location" class="hover:text-yellow-400 transition-colors duration-300">Roots</a></li>
+                </ul>
+            </nav>
+            <!-- Mobile Menu Button (Visual only for this demo) -->
+            <button class="md:hidden text-gray-300 hover:text-yellow-400">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 px-4 text-center">
+        <!-- Background Element -->
+        <div class="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-yellow-900 via-slate-900 to-slate-900"></div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+            <span class="uppercase tracking-[0.3em] text-yellow-500/80 text-sm md:text-base mb-6">The World’s Greatest Bond</span>
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight">
+                Suraj Pandey <br><span class="text-3xl md:text-5xl italic text-gray-400 font-light">&amp;</span> <br>Raushan Yadav
+            </h1>
+            
+            <div class="w-24 h-[1px] bg-gradient-to-r from-transparent via-yellow-500 to-transparent mb-8"></div>
+            
+            <blockquote class="text-xl md:text-2xl text-gray-300 italic font-light leading-relaxed px-4 md:px-12 border-l-4 border-r-4 border-yellow-600/30 py-4">
+                "Some friendships are made for a lifetime, but this one is built for eternity."
+            </blockquote>
+            
+            <p class="mt-10 text-gray-400 max-w-2xl text-sm md:text-base font-light">
+                Welcome to the official home of an unbreakable bond. This website stands as a living testament to two best friends who embody the true meaning of loyalty, brotherhood, and togetherness.
+            </p>
+
+            <a href="#journey" class="mt-12 inline-block px-8 py-3 border border-yellow-600/50 text-yellow-500 uppercase tracking-widest text-xs hover:bg-yellow-600/10 transition-all duration-300 rounded-full">Explore The Journey</a>
+        </div>
+    </section>
+
+    <section id="journey" class="py-24 bg-slate-900/50 relative z-10">
+        <div class="container mx-auto px-6 max-w-7xl">
+            <div class="text-center mb-20">
+                <span class="text-yellow-500 text-sm font-bold tracking-widest uppercase mb-4 block">An Extraordinary Journey</span>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 serif-font golden-text">Who Are Suraj Pandey & Raushan Yadav?</h2>
+                <div class="w-24 h-1 bg-yellow-600 mx-auto rounded-full mb-10"></div>
+                <p class="text-gray-300 text-lg md:text-xl leading-relaxed max-w-4xl mx-auto font-light">
+                    Suraj Pandey and Raushan Yadav are more than just two individuals—they represent the world’s absolute best and most unbreakable friendship. Their bond goes far beyond traditional friendship; it is a profound brotherhood built on absolute loyalty, selflessness, and mutual trust. Their relationship is so strong that no force or circumstance can ever come between them. This website serves as a dedicated archive to preserve and honor their lifelong journey, memories, and shared experiences.
+                </p>
+            </div>
+
+            <!-- The Relationship & Purpose Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-16">
+                
+                <!-- The Relationship -->
+                <div class="bg-glass p-8 md:p-12 rounded-3xl border-t border-l border-yellow-600/30 glow-effect relative overflow-hidden group hover:border-yellow-500/50 transition-colors duration-500">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-yellow-600/10 rounded-full blur-3xl -mr-20 -mt-20 transition-transform group-hover:scale-150 duration-700"></div>
+                    <h3 class="text-3xl md:text-4xl font-semibold mb-4 text-gray-100 serif-font relative z-10">The Relationship</h3>
+                    <p class="text-gray-400 mb-10 font-light text-lg relative z-10">They share the truest, purest, and strongest friendship in the world.</p>
+                    
+                    <div class="space-y-8 relative z-10">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">🤝</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">Absolute Loyalty</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">It is a bond where both stand as each other's rock through every high and low, struggle, and victory.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">🛡️</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">An Unbreakable Shield</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">Their camaraderie is built on rock-solid trust—making their friendship truly impossible to break or divide. It stands as a timeless benchmark of ultimate togetherness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Purpose -->
+                <div class="bg-glass p-8 md:p-12 rounded-3xl border-t border-r border-yellow-600/30 glow-effect relative overflow-hidden group hover:border-yellow-500/50 transition-colors duration-500">
+                     <div class="absolute bottom-0 left-0 w-64 h-64 bg-yellow-600/10 rounded-full blur-3xl -ml-20 -mb-20 transition-transform group-hover:scale-150 duration-700"></div>
+                    <h3 class="text-3xl md:text-4xl font-semibold mb-4 text-gray-100 serif-font relative z-10">Their Purpose in Life</h3>
+                    <p class="text-gray-400 mb-10 font-light text-lg relative z-10">Suraj Pandey and Raushan Yadav share a vision that stands out from the ordinary.</p>
+                    
+                    <div class="space-y-8 relative z-10">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">🎯</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">A Bold Mission</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">Their primary purpose in life is simple yet grand: <span class="text-yellow-500/90 italic">"To achieve something in this world that no one has ever done before."</span></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">👑</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">Creating History</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">Rather than following conventional paths, they are committed to carving out their own unique trail.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">⛰️</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">Unwavering Support</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">By combining their strengths and supporting each other through every challenge, they aim to leave an indelible mark on the world through pioneering achievements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <div class="py-12 flex justify-center opacity-50 relative z-10">
+                
+                <!-- Timeline Item 3 -->
+                <div class="relative flex md:justify-end md:items-center">
+                    <div class="absolute left-0 md:left-1/2 transform -translate-x-[9px] md:-translate-x-1/2 w-5 h-5 rounded-full bg-yellow-600 border-4 border-slate-900 z-10 mt-6 md:mt-0 shadow-[0_0_10px_#bf953f]"></div>
+                    <div class="ml-10 md:ml-0 md:w-[45%] md:pl-10">
+                        <div class="bg-slate-800/50 p-6 rounded-xl border border-slate-700/50 hover:border-yellow-600/30 transition-colors">
+                            <span class="text-yellow-500 text-sm font-bold tracking-wider uppercase">Forever</span>
+                            <h3 class="text-2xl font-semibold mt-2 mb-3 serif-font">Built for Eternity</h3>
+                            <p class="text-gray-400 font-light text-sm">This is not just a collection of memories; it's a promise for the future. As long as there is time, this bond will endure.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="py-24 bg-slate-900/80 border-t border-yellow-600/20 relative">
+        <!-- Background map texture or subtle pattern could go here -->
+        <div class="absolute inset-0 z-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-600 via-transparent to-transparent"></div>
+        
+        <div class="container mx-auto px-6 max-w-5xl text-center relative z-10">
+            <div class="w-20 h-20 mx-auto bg-slate-800 rounded-full flex items-center justify-center mb-6 shadow-[0_0_20px_rgba(191,149,63,0.3)] border border-yellow-600/30 hover:scale-110 transition-transform duration-500">
+                <svg class="w-10 h-10 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+            </div>
+            <h2 class="text-3xl md:text-5xl font-bold mb-6 serif-font golden-text">Our Roots</h2>
+            <p class="text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed text-lg font-light">
+                Both friends hail from a deeply cherished and peaceful village in India, a place they proudly consider the most beautiful village in the country. Rooted in the rich soil and values of this village, their origins serve as their greatest foundation as they navigate life together.
+            </p>
+            
+            <div class="bg-glass p-8 md:p-12 rounded-3xl inline-block text-left border-t-2 border-yellow-600/50 glow-effect w-full md:w-auto shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 bg-yellow-600/10 rounded-full blur-2xl"></div>
+                
+                <div class="space-y-5 relative z-10">
+                    <div class="flex flex-col md:flex-row md:items-center border-b border-slate-700/50 pb-4">
+                        <span class="text-yellow-600 text-sm md:text-base uppercase tracking-widest font-semibold md:w-32 mb-1 md:mb-0 shrink-0">Village</span>
+                        <span class="text-gray-200 text-lg md:text-xl font-light">Suhi <span class="text-yellow-500/80 text-sm italic ml-2 block md:inline mt-1 md:mt-0">(The most beautiful and charming village in India)</span></span>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:items-center border-b border-slate-700/50 pb-4">
+                        <span class="text-yellow-600 text-sm md:text-base uppercase tracking-widest font-semibold md:w-32 mb-1 md:mb-0 shrink-0">Block</span>
+                        <span class="text-gray-200 text-lg md:text-xl font-light">Kutumba</span>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:items-center border-b border-slate-700/50 pb-4">
+                        <span class="text-yellow-600 text-sm md:text-base uppercase tracking-widest font-semibold md:w-32 mb-1 md:mb-0 shrink-0">District</span>
+                        <span class="text-gray-200 text-lg md:text-xl font-light">Aurangabad</span>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:items-center border-b border-slate-700/50 pb-4">
+                        <span class="text-yellow-600 text-sm md:text-base uppercase tracking-widest font-semibold md:w-32 mb-1 md:mb-0 shrink-0">State</span>
+                        <span class="text-gray-200 text-lg md:text-xl font-light">Bihar</span>
+                    </div>
+                    <div class="flex flex-col md:flex-row md:items-center pt-2">
+                        <span class="text-yellow-600 text-sm md:text-base uppercase tracking-widest font-semibold md:w-32 mb-1 md:mb-0 shrink-0">Country</span>
+                        <span class="text-gray-200 text-lg md:text-xl font-light">India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 text-center px-4 relative overflow-hidden">
+        <div class="absolute inset-0 z-0 bg-gradient-to-t from-black via-slate-900 to-transparent"></div>
+        <div class="relative z-10 max-w-3xl mx-auto">
+            <h2 class="text-2xl md:text-4xl font-light italic text-gray-300 leading-relaxed serif-font">
+                "Here’s to the moments we can't remember with the friends we'll never forget."
+            </h2>
+        </div>
+    </section>
+    <section id="journey" class="py-24 bg-slate-900/50 relative z-10">
+        <div class="container mx-auto px-6 max-w-7xl">
+            <div class="text-center mb-20">
+                <span class="text-yellow-500 text-sm font-bold tracking-widest uppercase mb-4 block">The Ultimate Legacy of Friendship</span>
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 serif-font golden-text">Who Are Suraj Pandey & Raushan Yadav?</h2>
+                <div class="w-24 h-1 bg-yellow-600 mx-auto rounded-full mb-10"></div>
+                <p class="text-gray-300 text-lg md:text-xl leading-relaxed max-w-4xl mx-auto font-light">
+                    Suraj Pandey and Raushan Yadav are more than just two individuals—they represent the world’s absolute best and most unbreakable friendship. Their bond goes far beyond traditional friendship; it is a profound brotherhood built on absolute loyalty, selflessness, and mutual trust. Their relationship is so strong that no force or circumstance can ever come between them. This website serves as a dedicated archive to preserve and honor their lifelong journey, memories, and shared experiences.
+                </p>
+                <p class="text-yellow-400 mt-8 text-2xl font-medium italic serif-font">"Suraj Pandey & Raushan Yadav — Undefeated Loyalty, Unshakable Trust, and a Lifetime Victory."</p>
+            </div>
+
+            <!-- The Relationship & Purpose Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-16">
+                
+                <!-- The Relationship -->
+                <div class="bg-glass p-8 md:p-12 rounded-3xl border-t border-l border-yellow-600/30 glow-effect relative overflow-hidden group hover:border-yellow-500/50 transition-colors duration-500">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-yellow-600/10 rounded-full blur-3xl -mr-20 -mt-20 transition-transform group-hover:scale-150 duration-700"></div>
+                    <h3 class="text-3xl md:text-4xl font-semibold mb-4 text-gray-100 serif-font relative z-10">An Unbreakable Bond & Absolute Trust</h3>
+                    <p class="text-gray-400 mb-10 font-light text-lg relative z-10">They share the truest, purest, and strongest friendship in the world.</p>
+                    
+                    <div class="space-y-8 relative z-10">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">🤝</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">Lifelong Trust</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">From early childhood to the present day, Suraj Pandey and Raushan Yadav have shared an unwavering level of faith in each other.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">🛡️</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">Unconditional Support</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">Whenever one faces a challenge, the other steps forward with total commitment and wholehearted support—standing side-by-side through every test of life.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">💎</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">An Unblemished Brotherhood</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">Through all these years, their relationship has remained completely free of conflicts or misunderstandings, establishing a bond designed to withstand the test of time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Purpose -->
+                <div class="bg-glass p-8 md:p-12 rounded-3xl border-t border-r border-yellow-600/30 glow-effect relative overflow-hidden group hover:border-yellow-500/50 transition-colors duration-500">
+                     <div class="absolute bottom-0 left-0 w-64 h-64 bg-yellow-600/10 rounded-full blur-3xl -ml-20 -mb-20 transition-transform group-hover:scale-150 duration-700"></div>
+                    <h3 class="text-3xl md:text-4xl font-semibold mb-4 text-gray-100 serif-font relative z-10">Shared Vision & Core Mission</h3>
+                    <p class="text-gray-400 mb-10 font-light text-lg relative z-10">Driven by a shared destiny, Suraj Pandey and Raushan Yadav are visionaries determined to pathfind where others have not.</p>
+                    
+                    <div class="space-y-8 relative z-10">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">🎯</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">A Bold Mission</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">Their primary purpose in life is simple yet grand: <span class="text-yellow-500/90 italic">"To achieve something in this world that no one has ever done before."</span></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center mr-6 shrink-0 shadow-[0_0_15px_rgba(191,149,63,0.2)] border border-yellow-600/20">
+                                <span class="text-xl">👑</span>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-medium text-gray-200 mb-2">Creating History</h4>
+                                <p class="text-gray-400 font-light leading-relaxed">Rather than following conventional paths, they are committed to carving out their own unique trail.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- Rankings Section -->
+            <div class="mt-20 bg-gradient-to-r from-yellow-900/40 via-slate-800/80 to-yellow-900/40 p-1 rounded-3xl glow-effect">
+                <div class="bg-slate-900 rounded-[23px] py-12 px-6 text-center">
+                    <h3 class="text-3xl md:text-4xl font-bold mb-8 serif-font golden-text">Ranked #1 in True Friendship</h3>
+                    <p class="text-gray-300 max-w-2xl mx-auto mb-10 font-light text-lg">Their friendship sets an unmatched benchmark of loyalty, trust, and dedication at every level:</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                        <div class="p-6 border border-yellow-600/30 rounded-2xl bg-slate-800/50 hover:bg-slate-800 transition-colors">
+                            <span class="text-3xl block mb-3">🥇</span>
+                            <h4 class="text-yellow-500 font-semibold text-xl mb-2">District Level</h4>
+                            <p class="text-gray-400 text-sm">#1 Best Friends in Aurangabad District</p>
+                        </div>
+                        <div class="p-6 border border-yellow-600/50 rounded-2xl bg-slate-800/80 transform md:-translate-y-4 shadow-[0_0_20px_rgba(191,149,63,0.3)]">
+                            <span class="text-4xl block mb-3">🏆</span>
+                            <h4 class="text-yellow-500 font-bold text-2xl mb-2">National Level</h4>
+                            <p class="text-gray-300">#1 Best Friends in India</p>
+                            <span class="mt-4 inline-block text-xs uppercase tracking-widest text-yellow-600 font-bold">The World’s Most Genuine Duo</span>
+                        </div>
+                        <div class="p-6 border border-yellow-600/30 rounded-2xl bg-slate-800/50 hover:bg-slate-800 transition-colors">
+                            <span class="text-3xl block mb-3">🥇</span>
+                            <h4 class="text-yellow-500 font-semibold text-xl mb-2">State Level</h4>
+                            <p class="text-gray-400 text-sm">#1 Best Friends in the State of Bihar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="py-24 bg-slate-900/80 border-t border-yellow-600/20 relative">
+        <!-- Background map texture or subtle pattern could go here -->
+        <div class="absolute inset-0 z-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-600 via-transparent to-transparent"></div>
+        
+        <div class="container mx-auto px-6 max-w-6xl relative z-10">
+            <div class="text-center mb-16">
+                <div class="w-20 h-20 mx-auto bg-slate-800 rounded-full flex items-center justify-center mb-6 shadow-[0_0_20px_rgba(191,149,63,0.3)] border border-yellow-600/30 hover:scale-110 transition-transform duration-500">
+                    <svg class="w-10 h-10 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                </div>
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 serif-font golden-text">Our Roots</h2>
+                <p class="text-yellow-500/80 text-xl italic font-light serif-font">"From Suhi to the World: Built on Lifelong Trust, Bound for History."</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <!-- Location Details Card -->
+                <div class="lg:col-span-4 bg-glass p-8 rounded-3xl border-t-2 border-yellow-600/50 glow-effect shadow-2xl relative overflow-hidden h-fit">
+                    <div class="absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 bg-yellow-600/10 rounded-full blur-2xl"></div>
+                    
+                    <h3 class="text-2xl font-semibold mb-6 text-gray-100 serif-font border-b border-slate-700/50 pb-4">Geographic Details</h3>
+                    
+                    <div class="space-y-4 relative z-10">
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-600 text-sm uppercase tracking-widest font-semibold">Village</span>
+                            <span class="text-gray-200 font-medium">Suhi</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-600 text-sm uppercase tracking-widest font-semibold">Post Office</span>
+                            <span class="text-gray-200 font-medium">Turta</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-600 text-sm uppercase tracking-widest font-semibold">Block</span>
+                            <span class="text-gray-200 font-medium">Kutumba</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-600 text-sm uppercase tracking-widest font-semibold">District</span>
+                            <span class="text-gray-200 font-medium">Aurangabad</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-600 text-sm uppercase tracking-widest font-semibold">State</span>
+                            <span class="text-gray-200 font-medium">Bihar</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-yellow-600 text-sm uppercase tracking-widest font-semibold">Country</span>
+                            <span class="text-gray-200 font-medium">India</span>
+                        </div>
+                        <div class="flex justify-between items-center pt-2 border-t border-slate-700/50">
+                            <span class="text-yellow-600 text-sm uppercase tracking-widest font-semibold">Continent</span>
+                            <span class="text-gray-200 font-medium">Asia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Description Card -->
+                <div class="lg:col-span-8 space-y-8">
+                    <!-- English Description -->
+                    <div class="bg-slate-800/40 p-8 rounded-3xl border border-slate-700/50 hover:border-yellow-600/30 transition-colors">
+                        <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-yellow-500 serif-font">🌿 Suhi Village: The Pride of Bihar and The Best Village in The World</h3>
+                        <p class="text-gray-300 mb-6 font-light leading-relaxed">
+                            Located in the Kutumba Block of Aurangabad district in Bihar, India (Asia), Suhi is a magnificent rural gem that serves as the central Panchayat for several surrounding villages. Celebrated not just as India’s most popular village, Suhi stands as a contender for the #1 most beautiful and serene village in the entire world.
+                        </p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                            <div class="bg-slate-900/50 p-5 rounded-2xl">
+                                <h4 class="text-lg font-medium text-gray-200 mb-2">Breathtaking Natural Beauty</h4>
+                                <p class="text-gray-400 text-sm font-light">Suhi is enveloped in vast stretches of emerald-green fields, towering trees, and untouched natural landscapes, presenting a picture-perfect setting that relaxes the mind and rejuvenates the soul.</p>
+                            </div>
+                            <div class="bg-slate-900/50 p-5 rounded-2xl">
+                                <h4 class="text-lg font-medium text-gray-200 mb-2">Unmatched Peace & Serenity</h4>
+                                <p class="text-gray-400 text-sm font-light">Far removed from the noise, hustle, and pollution of urban life, the atmosphere in Suhi is extraordinarily calm. There is no unwanted noise—only the gentle rustle of leaves and the melodious sounds of nature.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hindi Description -->
+                    <div class="bg-slate-800/40 p-8 rounded-3xl border border-slate-700/50 hover:border-yellow-600/30 transition-colors">
+                        <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-yellow-500 serif-font">ग्राम सुही: प्रकृति और शांति का अनूठा संगम 🇮🇳</h3>
+                        <p class="text-gray-300 mb-6 font-light leading-relaxed">
+                            सुही केवल एक गाँव नहीं, बल्कि कुदरत का रचा हुआ एक अद्भुत और मनमोहक दृश्य है। एशिया महाद्वीप के भारत देश में, बिहार राज्य के औरंगाबाद जिले के कुटुंबा प्रखंड में स्थित यह गाँव कई आसपास के गाँवों की मुख्य पंचायत भी है। सुही को न केवल भारत का, बल्कि पूरे विश्व का सबसे सुंदर, लाजवाब और सर्वश्रेष्ठ गाँव माना जाता है।
+                        </p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <span class="text-yellow-500 mr-3 mt-1">✨</span>
+                                <p class="text-gray-400 font-light"><strong class="text-gray-200 font-medium">अद्वितीय हरियाली और प्राकृतिक सौंदर्य:</strong> सुही गाँव अपनी मनमोहक हरियाली और उपजाऊ खेतों के लिए जाना जाता है। यहाँ चारों ओर फैली हरी-भरी चादर आँखों को सुकून और मन को अपार शांति देती है।</p>
+                            </div>
+                            <div class="flex items-start">
+                                <span class="text-yellow-500 mr-3 mt-1">✨</span>
+                                <p class="text-gray-400 font-light"><strong class="text-gray-200 font-medium">शांति और शुद्ध वातावरण:</strong> आधुनिक शहर की भागदौड़, प्रदूषण और शोर-शराबे से दूर, सुही का वातावरण एकदम शांत और निर्मल है।</p>
+                            </div>
+                            <div class="flex items-start">
+                                <span class="text-yellow-500 mr-3 mt-1">✨</span>
+                                <p class="text-gray-400 font-light"><strong class="text-gray-200 font-medium">खुशहाली और आत्मीयता:</strong> यहाँ का हर दिन नई खुशियों और उमंग के साथ शुरू होता है। गाँव के लोग आपस में प्रेम, आत्मीयता और भाईचारे के साथ रहते हैं।</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-black py-8 border-t border-slate-800">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-500 text-sm font-light">
+                &copy; <span id="year"></span> <span class="golden-text font-medium">Suraj Pandey & Raushan Yadav</span>. Preserved for Eternity.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Optional: Add a simple scroll effect for the header
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('bg-slate-900/90', 'shadow-lg');
+                header.classList.remove('bg-glass');
+            } else {
+                header.classList.remove('bg-slate-900/90', 'shadow-lg');
+                header.classList.add('bg-glass');
+            }
+        });
+    </script>
+</body>
+</html>
